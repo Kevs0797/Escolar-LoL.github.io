@@ -38,14 +38,21 @@ main{
     height: 10000px auto;
     background-color: lightgoldenrodyellow;
     margin: 0 auto;
-    background-image: url(../imagenes/Grieta.avif);
+    background-image: url(../imagenes/Grieta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+main a{
+    color:black;
+    text-decoration: none;
+    font-size: large;
+    font-family: "Raleway", serif;
 }
 .personaje{
     width:0 auto;
     height:0 auto;
-    background-color: gray;
+
     margin-top: 20px;
   margin-left: 33px;
   display: inline-block;
@@ -53,7 +60,7 @@ main{
 .foto{
     width: 400px;
     height: 400px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.77);
     float:left;
     margin-left: 33px;
     text-align: center;
@@ -64,7 +71,7 @@ main{
 .texto{
     width: 950px;
     height: 400px;
-    background-color: rgb(255, 202, 105);
+    background-color: rgba(255, 203, 105, 0.64);
     float: left;
     margin-left: 33px;
     padding: 20px;
